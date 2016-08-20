@@ -31,7 +31,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB,    KC_Q,    KC_W,   KC_E,   KC_R,   KC_T,   KC_EQUAL,
         KC_LCTL,   KC_A,    KC_S,   KC_D,   KC_F,   KC_G,
         KC_LSFT,   KC_Z,    KC_X,   KC_C,   KC_V,   KC_B,   KC_LEAD,
-          KC_LEFT, KC_RIGHT, KC_LCTL, KC_LALT, KC_LGUI,
+          KC_LCTL, KC_LALT, KC_LGUI, KC_LEFT, KC_RIGHT,
                                        ALT_T(KC_APP), KC_LGUI,
                                                       KC_HOME,
                                   MO(SYMB), MO(MDIA), MO(NUMS),
@@ -47,7 +47,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ),
 [SYMB] = KEYMAP( // SYMBOLS
        // left hand
-       KC_TRNS, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,       KC_TRNS,
+       KC_TRNS, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   S(KC_GRV),
        KC_TRNS, KC_EXLM, KC_AT,   KC_LCBR, KC_RCBR, S(KC_SLSH),  KC_TRNS,
        KC_TRNS, KC_HASH, KC_DLR,  KC_LPRN, KC_RPRN, S(KC_SCLN),
        KC_TRNS, KC_PERC, KC_CIRC, KC_LBRC, KC_RBRC, S(KC_MINUS), KC_TRNS,
